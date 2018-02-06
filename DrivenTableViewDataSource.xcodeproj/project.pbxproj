@@ -8,11 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		F671463E20299FBD00AF911F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F671463D20299FBD00AF911F /* AppDelegate.swift */; };
-		F671464020299FBD00AF911F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F671463F20299FBD00AF911F /* ViewController.swift */; };
 		F671464320299FBD00AF911F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F671464120299FBD00AF911F /* Main.storyboard */; };
 		F671464520299FBD00AF911F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F671464420299FBD00AF911F /* Assets.xcassets */; };
 		F671464820299FBD00AF911F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F671464620299FBD00AF911F /* LaunchScreen.storyboard */; };
-		F671465320299FBD00AF911F /* DrivenTableViewDataSourceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F671465220299FBD00AF911F /* DrivenTableViewDataSourceTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,13 +26,11 @@
 /* Begin PBXFileReference section */
 		F671463A20299FBD00AF911F /* DrivenTableViewDataSource.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrivenTableViewDataSource.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F671463D20299FBD00AF911F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F671463F20299FBD00AF911F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F671464220299FBD00AF911F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F671464420299FBD00AF911F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F671464720299FBD00AF911F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F671464920299FBD00AF911F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F671464E20299FBD00AF911F /* DrivenTableViewDataSourceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrivenTableViewDataSourceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F671465220299FBD00AF911F /* DrivenTableViewDataSourceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrivenTableViewDataSourceTests.swift; sourceTree = "<group>"; };
 		F671465420299FBD00AF911F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				F671463D20299FBD00AF911F /* AppDelegate.swift */,
-				F671463F20299FBD00AF911F /* ViewController.swift */,
 				F671464120299FBD00AF911F /* Main.storyboard */,
 				F671464420299FBD00AF911F /* Assets.xcassets */,
 				F671464620299FBD00AF911F /* LaunchScreen.storyboard */,
@@ -90,7 +85,6 @@
 		F671465120299FBD00AF911F /* DrivenTableViewDataSourceTests */ = {
 			isa = PBXGroup;
 			children = (
-				F671465220299FBD00AF911F /* DrivenTableViewDataSourceTests.swift */,
 				F671465420299FBD00AF911F /* Info.plist */,
 			);
 			path = DrivenTableViewDataSourceTests;
@@ -217,7 +211,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F671464020299FBD00AF911F /* ViewController.swift in Sources */,
 				F671463E20299FBD00AF911F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -226,7 +219,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F671465320299FBD00AF911F /* DrivenTableViewDataSourceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
